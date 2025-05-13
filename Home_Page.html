@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Home</title>
+		<link href="Home_Style.css" rel="stylesheet" type="text/css">
+	</head>
+
+	<!--Minder saaie achtergrond-->
+	<!--Verander foto boven beschrijving-->
+	<body>
+		<div class="row">
+			<div class="topnav">
+				<a href="Home_Page.html" class="active"></a>
+				<div id="myLinks">
+					<a href="Home_Page.html">about me</a>
+            		<a href="Port_Page.html">portfolio</a>
+            		<a href="Contact_Page.html">contact</a>
+				</div>
+
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<div class="container" onclick="change(this)">
+						<div class="bar1"></div>
+						<div class="bar2"></div>
+						<div class="bar3"></div>
+					</div>
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
+			
+			<div id="naam">Mathis De Rammelaere</div>
+			<div class="triangle" onClick="scrollNaarBeneden()"></div>
+			<div id="uzelf">
+				<div class="img" style="background-image: url('https://upload.wikimedia.org/wikipedia/en/3/30/Jon_Snow_Season_8.png'); margin:auto; display:block;"></div>
+				<div id="tekst">
+					<p>Ik ben Mathis De Rammelaere,<br><br></p>
+					<p>ik heb 3 jaar grafische technieken gevolgd in het secondair.<br><br></p>
+					<p>Ondertussen werk ik ook richting DAE in het hoger.<br><br></p>
+					<p>Dit in de hoop werk te kunnen vinden in de videogame industrie.<br><br></p>
+				</div>
+			</div>
+		</div>
+	</body>
+	
+	<script>
+		function myFunction(){
+			var x = document.getElementById("myLinks")
+			if(x.style.display === "block"){
+				x.style.display = "none"
+			}
+			else{
+				x.style.display = "block"
+			}
+		}
+
+		function change(x){
+			x.classList.toggle("change")
+		}
+		
+		var naam = "Mathis De Rammelaere"
+		var nameChange = document.getElementById("naam")
+		var unit = document.documentElement.scrollHeight / 100
+		
+		function replaceRecursively(element, from, to){
+			if(element.childNodes.length){
+				element.childNodes.forEach(child => replaceRecursively(child, from, to))
+			}
+			else{
+				const cont = element.textContentif (cont)
+				element.textContent = cont.replace(from, to)
+			}
+		}
+		
+		replaceRecursively(document.body, new RegExp("naam"), naam)
+		
+		function scrollNaarBeneden(tekst){
+			window.scrollTo({top: 100 * unit, left: 0, behavior: 'smooth'})
+		}
+		
+		function scrollFunction(){
+			if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+				document.getElementById("navbar").style.top = "0"
+			}
+			else{
+				document.getElementById("navbar").style.top = "-50px"
+			}
+		}
+	</script>
+</html>
+
+
