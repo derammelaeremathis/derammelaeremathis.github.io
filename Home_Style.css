@@ -30,19 +30,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
-@keyframes breatheBackground {
-  0%   { background-color: lightskyblue; }
-  25%  { background-color: lightgreen; }
-  50%  { background-color: lightcoral; }
-  75%  { background-color: lightyellow; }
-  100% { background-color: lightskyblue; }
-}
-
 body {
-	overflow-y: scroll;
-	display: block;
-	height: 100vh;
-  animation: breatheBackground 5s ease-in-out infinite;
+	background-color: black;
 }
 
 ol, ul {
