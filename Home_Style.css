@@ -31,7 +31,9 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-	background-color: black;
+	background-image: url(Images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 ol, ul {

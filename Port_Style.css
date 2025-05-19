@@ -81,7 +81,7 @@ table {
     .col-m-12 {width: 100%;}
 
     body{
-        background-color: black;
+        background-image: url(Images/background.png);
     }
 
     #title_portfolio{
@@ -272,7 +272,7 @@ table {
     .col-12 {width: 100%;}
 
     body{
-        background-color: black;
+        background-image: url(Images/background.png);
     }
 
     #title_portfolio{
