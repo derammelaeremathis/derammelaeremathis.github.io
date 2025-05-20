@@ -87,7 +87,7 @@ table {
     #title_portfolio{
         color: white;
         font-size: 8vh;
-        margin-left: 10vw;
+        margin-left: 0vw;
         font-family: futura-pt, sans-serif;
     }
 
@@ -169,7 +169,7 @@ table {
     }
 
     #container_werken{
-        width: 100%;
+        width: 76%;
         height: 75vh;
         display: flex;
         flex-wrap: wrap;
@@ -188,71 +188,24 @@ table {
         margin: 10px;
     }
 
-    .topnav {
-        background-color: #000000;
-        position: fixed;
-        overflow:inherit;
+    #nav_container{
+        background-color: black;
+        width: 80vw;
+        height: 5vh;
+        display: block;
+        margin: auto;
+        margin-top: 2vh;
+        padding-top: 2vh;
+        padding-left: 10vw;
     }
-  
-    .topnav #myLinks {
-        display: none;
-        font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+
+    .nav{
         text-align: center;
-        position: fixed;
-        width:100vw;
-        background-color:black;
-    }
-  
-    .topnav a {
-        color: white;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
-    }
-
-    .topnav a.icon {
-        background: black;
-        display: block;
-        position: absolute;
-        left: 0;
-        top: 0;
-    }
-  
-    .container {
-        display: inline-block;
-        cursor: pointer;
-    }
-  
-    .bar1, .bar2, .bar3 {
-        width: 35px;
-        height: 5px;
-        background-color: white;
-        margin: 6px 0;
-        transition: 0.4s;
-    }
-  
-    .change .bar1 {
-        transform: translate(0, 11px) rotate(-45deg);
-    }
-  
-    .change .bar2 {
-        opacity: 0;
-    }
-  
-    .change .bar3 {
-        transform: translate(0, -11px) rotate(45deg);
-    }
-
-    .topnav a:hover {
-        background-color: #ddd;
-        color: black;
-    }
-  
-    .active {
-        background-color: #000000;
-        color: white;
         font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+        font-size: 100%;
+        color: white;
+        text-decoration: none;
+        margin-right: 5vw;
     }
 }
 
@@ -278,7 +231,7 @@ table {
     #title_portfolio{
         color: white;
         font-size: 12vh;
-        margin-left: 5vw;
+        margin-left: 0vw;
         font-family: futura-pt, sans-serif;
     }
 
@@ -321,6 +274,7 @@ table {
 
     #container_filterbuttons{
         width: 100%;
+        margin-left: 19vw;
     }
     
     .filters{
@@ -364,7 +318,7 @@ table {
     }
 
     #container_werken{
-        width: 100%;
+        width: 70%;
         height: 75vh;
         display: flex;
         flex-wrap: wrap;
@@ -381,72 +335,5 @@ table {
         width: 10vw;
         height: 15vw;
         margin: 1vw;
-    }
-
-    .topnav {
-        background-color: #000000;
-        position: fixed;
-        overflow:inherit;
-    }
-  
-    .topnav #myLinks {
-        display: none;
-        font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-        text-align: center;
-        position: fixed;
-        width:100vw;
-        background-color:black;
-    }
-  
-    .topnav a {
-        color: white;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
-    }
-
-    .topnav a.icon {
-        background: black;
-        display: block;
-        position: absolute;
-        left: 0;
-        top: 0;
-    }
-  
-    .container {
-        display: inline-block;
-        cursor: pointer;
-    }
-  
-    .bar1, .bar2, .bar3 {
-        width: 35px;
-        height: 5px;
-        background-color: white;
-        margin: 6px 0;
-        transition: 0.4s;
-    }
-  
-    .change .bar1 {
-        transform: translate(0, 11px) rotate(-45deg);
-    }
-  
-    .change .bar2 {
-        opacity: 0;
-    }
-  
-    .change .bar3 {
-        transform: translate(0, -11px) rotate(45deg);
-    }
-
-    .topnav a:hover {
-        background-color: #ddd;
-        color: black;
-    }
-  
-    .active {
-        background-color: #000000;
-        color: white;
-        font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
     }
 }
