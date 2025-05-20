@@ -109,11 +109,11 @@ table {
     background-size: contain;
     background-repeat: no-repeat; 
     margin:  auto;
-    margin-top: 5vh;
+    margin-top: 8vh;
 }
 
 .divider_white{
-    background-color: white;
+    background-color: black;
     height: 0.2vh;
     width: 80vw;
     align-items: center;
@@ -163,7 +163,7 @@ table {
     background-repeat: no-repeat; 
     font: normal;
     font-family: Helvetica;
-    color: white;
+    color: black;
     font-size: 18pt;
     text-align: left;
     justify-content: center;
@@ -179,23 +179,10 @@ table {
     text-decoration: none;
 }
 
-#telephone_icon{
-    width: 10vh;
-    height: 10vh;
-    background-image: url(Images/Telephone-01.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 0px;
-    margin-top: 0px;
-}
-
 #telephone_text{
     font: normal;
     font-family: Helvetica;
-    color: white;
+    color: black;
     font-size: 18pt;
 }
 
@@ -210,7 +197,7 @@ table {
     background-repeat: no-repeat; 
     font: normal;
     font-family: Helvetica;
-    color: white;
+    color: black;
     font-size: 18pt;
     text-align: left;
     margin: 0 auto;
@@ -224,23 +211,10 @@ table {
     text-decoration: none;
 }
 
-#mail_icon{
-    width: 11vh;
-    height: 11vh;
-    background-image: url(Images/Mail-01.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 22px;
-    margin-top: 0px;
-}
-
 #mail_text{
     font: normal;
     font-family: Helvetica;
-    color: white;
+    color: black;
     font-size: 18pt;
 }
 
@@ -254,7 +228,7 @@ table {
     padding-bottom: 40px;
     font-weight: normal;
     font-family: Helvetica;
-    color: white;
+    color: black;
     font-size: 18pt;
     text-align: center;
 }
@@ -270,69 +244,28 @@ table {
     padding-bottom: 50px;
     font-weight: bold;
     font-family: Helvetica;
-    color: white;
+    color: black;
     font-size: 18pt;
     text-align: center;
 }
 
-.topnav #myLinks{
-    display: none;
-    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+#nav_container{
+    background-color: black;
+    width: 80vw;
+    height: 7vh;
+    display: block;
+    margin: auto;
+    margin-top: 5vh;
+    padding-top: 2vh;
+    padding-left: 35vw;
+}
+
+.nav{
     text-align: center;
-    position: fixed;
-    width:100vw;
-    background-color:black;
-}
-  
-.topnav a{
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-}
-
-.topnav a.icon{
-    background: black;
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-  
-.container{
-    display: inline-block;
-    cursor: pointer;      
-}
-  
-.bar1, .bar2, .bar3{
-    width: 35px;
-    height: 5px;
-    background-color: white;
-    margin: 6px 0;
-    transition: 0.4s;
-}
-  
-.change .bar1{
-    transform: translate(0, 11px) rotate(-45deg);
-}
-  
-.change .bar2{
-    opacity: 0;
-}
-  
-.change .bar3{
-    transform: translate(0, -11px) rotate(45deg);
-}
-
-.topnav a:hover{
-    background-color: #ddd;
-    color: black;
-}
-
-.active {
-    background-color: #000000;
-    color: white;
     font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-size: 200%;
+    color: white;
+    text-decoration: none;
+    margin-right: 5vw;
 }
   

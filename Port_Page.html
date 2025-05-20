@@ -16,93 +16,66 @@
 
     <div class="row">
         <div class="col-m-12 col-12" id="container_filterbuttons">
-            <button class="filters" id="filter_fotografie" onclick="FilterFotografie()">Fotografie</button>
-            <button class="filters" id="filter_webdesign" onclick="FilterWebdesign()">Webdesign</button>
-            <button class="filters" id="filter_videografie" onclick="FilterVideografie()">Videografie</button>
-            <button class="filters" id="filter_illustratie" onclick="FilterIllustratie()">Illustratie</button>
+            <button class="filters" id="filter_grafische" onclick="FilterGrafische()">Grafische</button>
+            <button class="filters" id="filter_animatie" onclick="FilterAnimatie()">Animatie</button>
         </div>
     </div>
 
     <div class="row">
         <div class="col-m-12 col-12" id="container_werken">
-            <div class="werken type_fotografie" id="werk1"></div>
-            <div class="werken type_webdesign" id="werk2"></div>
-            <div class="werken type_videografie" id="werk3"></div>
-            <div class="werken type_illustratie" id="werk4"></div>
-            <div class="werken type_fotogtafie" id="werk5"></div>
-            <div class="werken type_webdesign" id="werk6"></div>
-            <div class="werken type_videografie" id="werk7"></div>
-            <div class="werken type_illustratie" id="werk8"></div>
-            <div class="werken type_fotografie" id="werk9"></div>
-            <div class="werken type_webdesign" id="werk10"></div>
-            <div class="werken type_fotografie" id="werk11"></div>
-            <div class="werken type_webdesign" id="werk12"></div>
-            <div class="werken type_videografie" id="werk13"></div>
-            <div class="werken type_illustratie" id="werk14"></div>
-            <div class="werken type_fotogtafie" id="werk15"></div>
-            <div class="werken type_webdesign" id="werk16"></div>
-            <div class="werken type_videografie" id="werk17"></div>
-            <div class="werken type_illustratie" id="werk18"></div>
-            <div class="werken type_fotografie" id="werk19"></div>
-            <div class="werken type_webdesign" id="werk20"></div>
+            <img src="Images/werken/grafische_kerstkaart.png" class="werken type_grafische" id="werk1"></img>
+            <video src="Images/werken/animatie_geanimeerdlogo.mp4" controls class="werken type_animatie" id="werk2"></video>
+            <img src="Images/werken/grafische_logokerckstede.png" class="werken type_grafische" id="werk3"></img>
+            <video src="Images/werken/animatie_hamer.mp4" controls class="werken type_animatie" id="werk4"></video>
+            <img src="Images/werken/grafische_logostudybuddy.png" class="werken type_grafische" id="werk5"></img>
+            <video src="Images/werken/animatie_jelly.mp4" controls class="werken type_animatie" id="werk6"></video>
+            <img src="Images/werken/grafische_naaminmerklotus.png" class="werken type_grafische" id="werk7"></img>
+            <video src="Images/werken/animatie_morph.mp4" controls class="werken type_animatie" id="werk8"></video>
+            <img src="Images/werken/grafische_recept.png" class="werken type_grafische" id="werk9"></img>
+            <video src="Images/werken/animatie_typekine.mp4" controls class="werken type_animatie" id="werk10"></video>
+            <img src="Images/werken/grafische_visitekaartjekerckstede.png" class="werken type_grafische" id="werk11"></img>
+            <img src="Images/werken/grafische_zwemschooldeark.png" class="werken type_grafische" id="werk12"></img>
         </div>
     </div>
 
     <div class="row">
         <div id="nav_container">
-            <a class="nav" id="cv" href="CV_Page.html">CV</a>
-            <a class="nav" id="cv" href="Contact_Page.html">CONTACT</a>
+            <a class="nav" id="contact" href="Contact_Page.html">CONTACT</a>
         </div>
     </div>
 
     <script>
-        var type_fotografie = document.getElementsByClassName("type_fotografie")
-        var type_webdesign = document.getElementsByClassName("type_webdesign")
-        var type_videografie = document.getElementsByClassName("type_videografie")
-        var type_illustratie = document.getElementsByClassName("type_illustratie")
+        var type_grafische = document.getElementsByClassName("type_grafische")
+        var type_animatie = document.getElementsByClassName("type_animatie")
 
-        function hide_fotografie(){for(var i = 0; i < type_fotografie.length; i++){type_fotografie[i].style.display = "none"}}
-        function show_fotografie(){for(var i = 0; i < type_fotografie.length; i++){type_fotografie[i].style.display = "block"}}
-        function hide_webdesign(){for(var i = 0; i < type_webdesign.length; i++){type_webdesign[i].style.display = "none"}}
-        function show_webdesign(){for(var i = 0; i < type_webdesign.length; i++){type_webdesign[i].style.display = "block"}}
-        function hide_videografie(){for(var i = 0; i < type_videografie.length; i++){type_videografie[i].style.display = "none"}}
-        function show_videografie(){for(var i = 0; i < type_videografie.length; i++){type_videografie[i].style.display = "block"}}
-        function hide_illustratie(){for(var i = 0; i < type_illustratie.length; i++){type_illustratie[i].style.display = "none"}}
-        function show_illustratie(){for(var i = 0; i < type_illustratie.length; i++){type_illustratie[i].style.display = "block"}}
+        function hide_grafische(){for(var i = 0; i < type_grafische.length; i++){type_grafische[i].style.display = "none"}}
+        function show_grafische(){for(var i = 0; i < type_grafische.length; i++){type_grafische[i].style.display = "block"}}
+        function hide_animatie(){for(var i = 0; i < type_animatie.length; i++){type_animatie[i].style.display = "none"}}
+        function show_animatie(){for(var i = 0; i < type_animatie.length; i++){type_animatie[i].style.display = "block"}}
 
-        function FilterFotografie(){
-            show_fotografie()
-            hide_webdesign()
-            hide_videografie()
-            hide_illustratie()
+        function FilterGrafische(){
+            show_grafische()
+            hide_animatie()
         }
 
-        function FilterWebdesign(){
-            hide_fotografie()
-            show_webdesign()
-            hide_videografie()
-            hide_illustratie()
+        function FilterAnimatie(){
+            hide_grafische()
+            show_animatie()
         }
 
         function FilterVideografie(){
-            hide_fotografie()
-            hide_webdesign()
-            show_videografie()
-            hide_illustratie()
+            hide_grafische()
+            hide_animatie()
         }
 
         function FilterIllustratie(){
-            hide_fotografie()
-            hide_webdesign()
-            hide_videografie()
-            show_illustratie()
+            hide_grafische()
+            hide_animatie()
         }
 
         function DisplayAll(){
-            show_fotografie()
-            show_webdesign()
-            show_videografie()
-            show_illustratie()
+            show_grafische()
+            show_animatie()
         }
 
         function myFunction(){
