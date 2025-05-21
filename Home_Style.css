@@ -164,7 +164,7 @@ font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 
 #tekst{
-  margin-top: 10vh;
+  margin-top: 40vh;
   margin: auto;
   display: block;
   text-align: center;
@@ -183,8 +183,8 @@ font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 #containerlinks{
   width: 50vw;
   display: block;
-  margin-left: 32vw;
-  margin-bottom: 20vh;
+  margin-left: 34vw;
+  margin-bottom: 50vh;
 
 }
 

@@ -101,17 +101,6 @@ table {
     .col-12 {width: 100%;}
 }
 
-#pfp{
-    width: 25vh;
-    height: 25vh;
-    border-radius: 50%;
-    background-image: url('Images/Jon_Snow_Season_8.png');
-    background-size: contain;
-    background-repeat: no-repeat; 
-    margin:  auto;
-    margin-top: 8vh;
-}
-
 .divider_white{
     background-color: black;
     height: 0.2vh;
@@ -233,7 +222,6 @@ table {
     text-align: center;
 }
 
-
 .standard_text_bold{
     width :auto;
     height:auto;
@@ -247,6 +235,7 @@ table {
     color: black;
     font-size: 18pt;
     text-align: center;
+    margin-top: 30vh;
 }
 
 #nav_container{
@@ -255,7 +244,7 @@ table {
     height: 7vh;
     display: block;
     margin: auto;
-    margin-top: 5vh;
+    margin-top: 30vh;
     padding-top: 2vh;
     padding-left: 35vw;
 }
