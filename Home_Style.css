@@ -148,7 +148,7 @@ font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 #uzelf{
   width: 100%;
   margin: auto;
-  margin-top: 60vh;
+  margin-top: 85vh;
   color: black;
   font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
   margin-bottom: 10vh;
@@ -164,11 +164,10 @@ font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 
 #tekst{
-  margin-top: 40vh;
+  margin-top: 100vh;
   margin: auto;
   display: block;
   text-align: center;
-  margin-bottom: 10vh;
 }
 
 .navlinks{
@@ -184,7 +183,7 @@ font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
   width: 50vw;
   display: block;
   margin-left: 34vw;
-  margin-bottom: 50vh;
+  margin-bottom: 40vh;
 
 }
 
