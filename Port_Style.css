@@ -192,7 +192,7 @@ table {
     }
 
     #nav_container{
-        background-color: black;
+        background-color: rgb(207, 146, 189);
         width: 80vw;
         height: 5vh;
         display: block;
@@ -284,6 +284,7 @@ table {
     #container_filterbuttons{
         width: 100%;
         margin-left: 35vw;
+        width: 65vw;
     }
     
     .filters{
@@ -345,7 +346,7 @@ table {
     }
 
     #nav_container{
-        background-color: black;
+        background-color: rgb(207, 146, 189);
         width: 80vw;
         height: 7vh;
         display: block;

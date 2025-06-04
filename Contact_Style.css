@@ -83,6 +83,21 @@ table {
     .col-m-10 {width: 83.33%;}
     .col-m-11 {width: 91.66%;}
     .col-m-12 {width: 100%;}
+
+    #nav_container{
+        background-color: rgb(207, 146, 189);
+        width: 80vw;
+        height: 7vh;
+        display: block;
+        margin: auto;
+        margin-top: 30vh;
+        padding-top: 2vh;
+        padding-left: 35vw;
+    }
+
+    #portfolio{
+        margin-left: -8vw;
+    }
 }
 
 /* Voor DESKTOP */
@@ -99,6 +114,17 @@ table {
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+
+    #nav_container{
+    background-color: rgb(207, 146, 189);
+    width: 80vw;
+    height: 7vh;
+    display: block;
+    margin: auto;
+    margin-top: 30vh;
+    padding-top: 2vh;
+    padding-left: 35vw;
+}
 }
 
 .divider_white{
@@ -235,18 +261,14 @@ table {
     color: black;
     font-size: 18pt;
     text-align: center;
-    margin-top: 30vh;
+    margin-top: 22vh;
 }
 
-#nav_container{
-    background-color: black;
-    width: 80vw;
-    height: 7vh;
-    display: block;
-    margin: auto;
-    margin-top: 30vh;
-    padding-top: 2vh;
-    padding-left: 35vw;
+#title_portfolio{
+    color: white;
+    font-size: 8vh;
+    margin-left: 0vw;
+    font-family: futura-pt, sans-serif;
 }
 
 .nav{
